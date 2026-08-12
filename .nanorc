@@ -1,0 +1,86 @@
+# ─────────────────────────────────────────────
+# General
+# ─────────────────────────────────────────────
+
+# Show line numbers
+set linenumbers
+
+# Mouse support
+set mouse
+
+# Automatically indent new lines
+set autoindent
+
+# 4-space tabs
+set tabsize 4
+
+# Insert spaces instead of literal tabs
+set tabstospaces
+
+# Don't automatically hard-wrap code
+set nowrap
+
+# Soft-wrap long lines on screen
+set softwrap
+
+# Wrap soft-wrapped lines at whitespace where possible
+set atblanks
+
+# Make Home behave intelligently
+set smarthome
+
+# Keep the cursor position visible
+set constantshow
+
+# Show useful state indicators in the title bar
+set stateflags
+
+# Show a scrollbar
+set indicator
+
+# Remember search/replace history
+set historylog
+
+
+# ─────────────────────────────────────────────
+# Code navigation
+# ─────────────────────────────────────────────
+
+# Highlight matching brackets
+set matchbrackets "(<[{)>]}"
+
+# Show a guide at column 80
+set guidestripe 80
+
+
+# ─────────────────────────────────────────────
+# Colours
+# ─────────────────────────────────────────────
+
+# Title bar
+set titlecolor bold,white,blue
+
+# Status bar
+set statuscolor bold,white,black
+
+# Shortcut keys at the bottom
+set keycolor bold,cyan
+
+# Function descriptions
+set functioncolor white,black
+
+# Line numbers
+set numbercolor cyan,black
+
+# Search matches
+set spotlightcolor black,yellow
+
+# Guide stripe
+set stripecolor white,black
+
+
+# ─────────────────────────────────────────────
+# Syntax highlighting
+# ─────────────────────────────────────────────
+
+include "/opt/homebrew/share/nano/*.nanorc"
