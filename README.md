@@ -1,2 +1,0 @@
-# Oscar Welton-Rosie
-Hi
